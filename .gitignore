@@ -1,0 +1,129 @@
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+log/
+logs/
+*.log
+*.sql
+*.sqlite
+
+## common temp file patterns
+*~
+*.*~
+.#*
+\#*#
+.*.sw[a-z]
+
+## editors and ides
+
+#Eclipse
+
+apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders
+.externalToolBuilders/
+*.launch
+
+#IntelliJ
+.idea
+*.iws
+*.iml
+*.ipr
+
+### emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+
+### vim
+*.un~
+Session.vim
+
+## os-specific noise files
+
+### linux flavors
+.directory
+
+### osx
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+### windows
+Desktop.ini
+$RECYCLE.BIN/
+Thumbs.db
+
+## commonly used temp files and directories
+*.pid
+tmp
+temp
+
+## tags, gtags, etags, ctags
+GPATH
+GRTAGS
+GSYMS
+GTAGS
+TAGS
+
+# Gradle #
+############
+.gradle
+build/
+target/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Java, Groovy, Kotlin, Scala #
+############
+*.class
+out/
+
+# Node #
+############
+node_modules/
+dist
+
+# Sass #
+############
+.sass-cache/
+*.css.map
+
+# Ansible #
+############
+*.retry
+
+# Documentation #
+############
+docToolChain
+confluenceCredentials.txt
+
+

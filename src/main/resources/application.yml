@@ -1,0 +1,3 @@
+feature:
+  properties:
+    path: classpath:/feature.properties
