@@ -3,7 +3,7 @@ library used for switching application features on/off
 
 The feature switch integration is done by adding the featureswitch dependency and the necessary configuration to the service.
 
-##Steps to follow:
+## Steps to follow:
 
 ## 1. Add the featureswitch dependency into the build.gradle file
 ```
@@ -52,7 +52,7 @@ FeatureService component contains two methods that can be used to activate/deact
 boolean isActive(String feature, FeatureContext featureContext);
 void ifActive(String feature, FeatureContext featureContext, Runnable runnable);
 ```
-####Usage examples:
+#### Usage examples:
 ```
 if (featureService.isActive(Feature.EDITABLE.getValue(), CustomFeatureContext.of("user_123"))){
     //code
